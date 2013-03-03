@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<Button android:id="@+id/begin_phenome_flash_cards"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/phenome_flash_cards_button_message" 
+    android:onClick="beginPhenomeFlashCards"
+    />
+<Button android:id="@+id/flash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    />
+
+<CheckBox 
+    android:id="@+id/column_1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="column 1"
+    />
+<CheckBox 
+    android:id="@+id/column_2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="column 2"
+    />
+<CheckBox 
+    android:id="@+id/column_3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="column 3"
+    />
+<CheckBox 
+    android:id="@+id/column_4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="column 4"
+    />
+<CheckBox 
+    android:id="@+id/extra_characters"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="extra characters"
+    />
+<CheckBox 
+    android:id="@+id/tehtar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="tehtar"
+    />
+
+</LinearLayout>
+

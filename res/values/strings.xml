@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Learn Sindar</string>
+    <string name="phenome_flash_cards_button_message">Begin Phenome Flash Cards</string>
+    <string name="phenome_flash_cards_display_message">Phenome Flash Cards</string>
+    <string name="no_categories_selected">No Categories Have Been Selected! :(</string>
+
+    <string-array name="sindar_column_1">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="sindar_column_3">
+        <item>a</item>
+        <item>s</item>
+        <item>d</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+    </string-array>
+
+    <string-array name="sindar_column_2">
+        <item>q</item>
+        <item>w</item>
+        <item>e</item>
+        <item>r</item>
+        <item>t</item>
+        <item>y</item>
+    </string-array>
+
+    <string-array name="sindar_column_4">
+        <item>z</item>
+        <item>x</item>
+        <item>c</item>
+        <item>v</item>
+        <item>b</item>
+        <item>n</item>
+    </string-array>
+
+    <string-array name="sindar_extra_characters">
+        <item>m</item>
+        <item>,</item>
+        <item>.</item>
+        <item>j</item>
+        <item>k</item>
+        <item>l</item>
+        <item>u</item>
+        <item>i</item>
+        <item>o</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="sindar_tehtar">
+        <item>`</item>
+        <item>~</item>
+
+        <item>`D</item>
+        <item>`R</item>
+        <item>`T</item>
+        <item>`Y</item>
+        <item>`U</item>
+    </string-array>
+
+    <string-array name="english_column_1">
+        <item>t</item>
+        <item>d</item>
+        <item>th</item>
+        <item>dh</item>
+        <item>n</item>
+        <item>r</item>
+    </string-array>
+    <string-array name="english_column_4">
+        <item>kh</item>
+        <item>g</item>
+        <item>kh</item>
+        <item>gh</item>
+        <item>n</item>
+        <item>y</item>
+    </string-array>
+    <string-array name="english_column_2">
+        <item>p</item>
+        <item>b</item>
+        <item>f</item>
+        <item>v</item>
+        <item>m</item>
+        <item>w</item>
+    </string-array>
+    <string-array name="english_column_3">
+        <item>kw</item>
+        <item>gw</item>
+        <item>khw</item>
+        <item>gkw</item>
+        <item>nw</item>
+        <item>w</item>
+    </string-array>
+    <string-array name="english_extra_characters">
+        <item>lh</item>
+        <item>z/ss</item>
+        <item>w</item>
+        <item>l</item>
+        <item>z/ss</item>
+        <item>y</item>
+        <item>rh</item>
+        <item>s</item>
+        <item>hw</item>
+        <item>r</item>
+        <item>s</item>
+        <item>h</item>
+    </string-array>
+    <string-array name="english_tehtar">
+        <item>short carrier</item>
+        <item>long carrier</item>
+
+        <item>a</item>
+        <item>e</item>
+        <item>i</item>
+        <item>o</item>
+        <item>u</item>
+    </string-array>
+</resources>

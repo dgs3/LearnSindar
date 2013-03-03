@@ -1,0 +1,20 @@
+/Users/dgs3/Documents/workspace/SindarStudyGuide/gen/com/example/sindarstudyguide/R.java \
+ : /Users/dgs3/Documents/workspace/SindarStudyGuide/res/drawable-hdpi/ic_launcher.png \
+/Users/dgs3/Documents/workspace/SindarStudyGuide/res/drawable-hdpi/ssg_icon.png \
+/Users/dgs3/Documents/workspace/SindarStudyGuide/res/drawable-ldpi/ic_launcher.png \
+/Users/dgs3/Documents/workspace/SindarStudyGuide/res/drawable-ldpi/ssg_icon.png \
+/Users/dgs3/Documents/workspace/SindarStudyGuide/res/drawable-mdpi/ic_launcher.png \
+/Users/dgs3/Documents/workspace/SindarStudyGuide/res/drawable-mdpi/ssg_icon.png \
+/Users/dgs3/Documents/workspace/SindarStudyGuide/res/drawable-xhdpi/ic_launcher.png \
+/Users/dgs3/Documents/workspace/SindarStudyGuide/res/drawable-xhdpi/ssg_icon.png \
+/Users/dgs3/Documents/workspace/SindarStudyGuide/res/layout/main.xml \
+/Users/dgs3/Documents/workspace/SindarStudyGuide/res/values/strings.xml \
+/Users/dgs3/Documents/workspace/SindarStudyGuide/bin/res/drawable-hdpi/ic_launcher.png \
+/Users/dgs3/Documents/workspace/SindarStudyGuide/bin/res/drawable-hdpi/ssg_icon.png \
+/Users/dgs3/Documents/workspace/SindarStudyGuide/bin/res/drawable-ldpi/ic_launcher.png \
+/Users/dgs3/Documents/workspace/SindarStudyGuide/bin/res/drawable-ldpi/ssg_icon.png \
+/Users/dgs3/Documents/workspace/SindarStudyGuide/bin/res/drawable-mdpi/ic_launcher.png \
+/Users/dgs3/Documents/workspace/SindarStudyGuide/bin/res/drawable-mdpi/ssg_icon.png \
+/Users/dgs3/Documents/workspace/SindarStudyGuide/bin/res/drawable-xhdpi/ic_launcher.png \
+/Users/dgs3/Documents/workspace/SindarStudyGuide/bin/res/drawable-xhdpi/ssg_icon.png \
+/Users/dgs3/Documents/workspace/SindarStudyGuide/bin/AndroidManifest.xml \
