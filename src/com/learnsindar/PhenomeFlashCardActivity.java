@@ -1,4 +1,4 @@
-package com.example.sindarstudyguide;
+package com.learnsindar;
 
 import java.util.Random;
 import java.util.Vector;
@@ -16,7 +16,7 @@ import android.view.View.OnClickListener;
 import android.widget.TextView;
 import android.widget.Button;
 import android.widget.CheckBox;
-import com.example.sindarstudyguide.MainActivity;
+import com.learnsindar.MainActivity;
 
 
 class FlashCard
@@ -72,7 +72,7 @@ class FlashCard
     }
 }
 
-public class DisplayMessageActivity extends Activity implements OnClickListener{
+public class PhenomeFlashCardActivity extends Activity implements OnClickListener{
 
     public boolean cardFaceUp = true;
     public FlashCard flashCard;

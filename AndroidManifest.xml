@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.example.sindarstudyguide"
+      package="com.learnsindar"
       android:versionCode="1"
       android:versionName="1.0">
     <application android:label="@string/app_name" android:icon="@drawable/ssg_icon">
-        <activity android:name="com.example.sindarstudyguide.MainActivity"
+        <activity android:name="com.learnsindar.MainActivity"
                   android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -12,13 +12,13 @@
             </intent-filter>
         </activity>
         <activity 
-            android:name="com.example.sindarstudyguide.DisplayMessageActivity"
+            android:name="com.learnsindar.PhenomeFlashCardActivity"
             android:label="@string/phenome_flash_cards_display_message"
-            android:parentActivityName="com.example.sindarstudyguide.MainActivity"
+            android:parentActivityName="com.learnsindar.MainActivity"
         >
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value="com.example.sindarstudyguide.MainActivity"
+            android:value="com.learnsindar.MainActivity"
         />
         </activity>
     </application>

@@ -1,4 +1,4 @@
-package com.example.sindarstudyguide;
+package com.learnsindar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -10,12 +10,12 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.CheckBox;
 import android.util.Log;
-import com.example.sindarstudyguide.DisplayMessageActivity;
+import com.learnsindar.PhenomeFlashCardActivity;
 
 public class MainActivity extends FragmentActivity
 {
 
-    public final static String CATEGORY_STATES = "com.example.sindarstudyguide.CATEGORY_STATES";
+    public final static String CATEGORY_STATES = "com.learnsindar.CATEGORY_STATES";
     public static final String logtag = "DAVEDEBUG";
 
     /** Called when the activity is first created. */
@@ -60,7 +60,7 @@ public void beginPhenomeFlashCards(View view)
             msg.show(getSupportFragmentManager(), "some tag");
             return;
         }
-        Intent intent = new Intent(this, DisplayMessageActivity.class);
+        Intent intent = new Intent(this, PhenomeFlashCardActivity.class);
         intent.putExtra(this.CATEGORY_STATES, categories);
         startActivity(intent);
     }
