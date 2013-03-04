@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.CheckBox;
 import android.util.Log;
 import com.learnsindar.PhenomeFlashCardActivity;
+import com.learnsindar.WritingPracticeActivity;
 
 public class MainActivity extends FragmentActivity
 {
@@ -40,8 +41,11 @@ public void beginWritingPractice(View view){
             msg.show(getSupportFragmentManager(), "some tag");
             return;
         }
-        Intent intent = new Intent(this, WritingActivity.class);
+        Log.v(logtag, "creating writing practice intent");
+        Intent intent = new Intent(this, WritingPracticeActivity.class);
+        Log.v(logtag, "creating writing practice extra");
         intent.putExtra(this.CATEGORY_STATES, categories);
+        Log.v(logtag, "starting intent");
         startActivity(intent);
     }
     

@@ -21,5 +21,15 @@
             android:value="com.learnsindar.MainActivity"
         />
         </activity>
+        <activity 
+            android:name="com.learnsindar.WritingPracticeActivity"
+            android:label="@string/writing_practice_display_message"
+            android:parentActivityName="com.learnsindar.MainActivity"
+        >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.learnsindar.MainActivity"
+        />
+        </activity>
     </application>
 </manifest>

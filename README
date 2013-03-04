@@ -5,4 +5,6 @@ A Sindar Study guide to help nerdlings learn Sindar
 To build and install, run build_and_run.sh
 
 ## Logging
-To log, 
+To log:
+
+    adb logcat | grep <LOGTAG>
