@@ -2,6 +2,6 @@
 
 ant debug
 
-adb uninstall com.example.sindarstudyguide
+adb uninstall com.learnsindar
 
-adb install bin/SindarStudyGuide-debug.apk
+adb install bin/learnsindar-debug.apk
