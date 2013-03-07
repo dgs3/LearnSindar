@@ -5,6 +5,7 @@
     <string name="phenome_flash_cards_display_message">Phenome Flash Cards</string>
     <string name="writing_practice_display_message">Writing Practice</string>
     <string name="writing_practice_button_message">Begin Writing Practice</string>
+    <string name="writing_next_char">Next Character</string>
     <string name="no_categories_selected">No Categories Have Been Selected! :(</string>
 
     <string-array name="sindar_column_1">
