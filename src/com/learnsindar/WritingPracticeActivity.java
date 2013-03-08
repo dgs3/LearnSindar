@@ -11,8 +11,6 @@ import android.graphics.Paint.Style;
 import android.graphics.Path;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
-import android.util.AttributeSet;
-import android.util.Log;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View.OnTouchListener;
@@ -21,7 +19,6 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
 import android.widget.RelativeLayout;
-import android.widget.TextView;
 
 import java.util.Vector;
 import java.util.Iterator;
@@ -90,12 +87,12 @@ public class WritingPracticeActivity extends Activity {
         Resources res = getResources();
         Intent intent = getIntent();
         boolean[] categories = intent.getBooleanArrayExtra(MainActivity.CATEGORY_STATES);
-        Vector<Vector<String>> cards = this.getCategories(categories, res);
+        Vector<Vector<String>> cards = PhenomeFlashCardActivity.getCategories(categories, res);
         Vector<String> english_cards = cards.get(0);
         Vector<String> sindar_cards = cards.get(1);
+        LayoutParams params = new LinearLayout.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT, 1.0f);
         flashCard = new FlashCard(sindar_cards, english_cards, res);
         writingLayout = new RelativeLayout(this);
-        LayoutParams params = new LinearLayout.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT, 1.0f);
         buttonLayout = new LinearLayout(this);
         buttonLayout.setLayoutParams(params);
         nextCharButton = new Button(this);
@@ -119,61 +116,6 @@ public class WritingPracticeActivity extends Activity {
         buttonLayout.addView(nextCharButton);
         writingLayout.addView(buttonLayout);
         setContentView(writingLayout);
-    }
-
-    private Vector<String> addStringArrayToVector(Vector<String> v, String[] s)
-    {
-        for(int i = 0; i < s.length; i++)
-        {
-            v.add(s[i]);
-        }
-        return v;
-    }
-
-    private Vector<Vector<String>> getCategories(boolean[] categories, Resources resource)
-    {
-        Vector<String> english_cards = new Vector();
-        Vector<String> sindar_cards= new Vector();
-
-        if(categories[0])
-        {
-            english_cards = addStringArrayToVector(english_cards, resource.getStringArray(R.array.english_column_1));
-            sindar_cards = addStringArrayToVector(sindar_cards, resource.getStringArray(R.array.sindar_column_1));
-        } 
-
-        if(categories[1])
-        {
-            english_cards = addStringArrayToVector(english_cards, resource.getStringArray(R.array.english_column_2));
-            sindar_cards = addStringArrayToVector(sindar_cards, resource.getStringArray(R.array.sindar_column_2));
-        } 
-        
-        if(categories[2])
-        {
-            english_cards = addStringArrayToVector(english_cards, resource.getStringArray(R.array.english_column_3));
-            sindar_cards = addStringArrayToVector(sindar_cards, resource.getStringArray(R.array.sindar_column_3));
-        } 
-        
-        if(categories[3])
-        {
-            english_cards = addStringArrayToVector(english_cards, resource.getStringArray(R.array.english_column_4));
-            sindar_cards = addStringArrayToVector(sindar_cards, resource.getStringArray(R.array.sindar_column_4));
-        } 
-        
-        if(categories[4])
-        {
-            english_cards = addStringArrayToVector(english_cards, resource.getStringArray(R.array.english_extra_characters));
-            sindar_cards = addStringArrayToVector(sindar_cards, resource.getStringArray(R.array.sindar_extra_characters));
-        } 
-        
-        if(categories[5])
-        {
-            english_cards = addStringArrayToVector(english_cards, resource.getStringArray(R.array.english_tehtar));
-            sindar_cards = addStringArrayToVector(sindar_cards, resource.getStringArray(R.array.sindar_tehtar));
-        } 
-        Vector<Vector<String>> returnValues = new Vector();
-        returnValues.add(english_cards);
-        returnValues.add(sindar_cards);
-        return returnValues; 
     }
 
     @Override

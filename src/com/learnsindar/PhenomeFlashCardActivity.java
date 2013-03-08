@@ -109,7 +109,7 @@ public class PhenomeFlashCardActivity extends Activity implements OnClickListene
         flashCardButton.setText(flashCard.getCurrentSide(flashCardButton));
     }
 
-    private Vector<String> addStringArrayToVector(Vector<String> v, String[] s)
+    public static Vector<String> addStringArrayToVector(Vector<String> v, String[] s)
     {
         for(int i = 0; i < s.length; i++)
         {
@@ -118,7 +118,7 @@ public class PhenomeFlashCardActivity extends Activity implements OnClickListene
         return v;
     }
 
-    private Vector<Vector<String>> getCategories(boolean[] categories, Resources resource)
+    public static Vector<Vector<String>> getCategories(boolean[] categories, Resources resource)
     {
         Vector<String> english_cards = new Vector();
         Vector<String> sindar_cards= new Vector();
