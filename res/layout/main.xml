@@ -9,20 +9,20 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     >
-<Button android:id="@+id/begin_phenome_flash_cards"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="@string/phenome_flash_cards_button_message" 
-    android:onClick="beginPhenomeFlashCards"
-    android:layout_weight="1"
-    />
-<Button android:id="@+id/begin_writing_practice"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="@string/writing_practice_button_message" 
-    android:onClick="beginWritingPractice"
-    android:layout_weight="1"
-    />
+    <Button android:id="@+id/begin_phenome_flash_cards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phenome_flash_cards_button_message" 
+        android:onClick="beginPhenomeFlashCards"
+        android:layout_weight="1"
+        />
+    <Button android:id="@+id/begin_writing_practice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/writing_practice_button_message" 
+        android:onClick="beginWritingPractice"
+        android:layout_weight="1"
+        />
 </LinearLayout>
 <Button android:id="@+id/flash"
     android:layout_width="match_parent"
