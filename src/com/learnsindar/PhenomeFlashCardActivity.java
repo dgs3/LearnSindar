@@ -13,6 +13,7 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.LinearLayout.LayoutParams;
 import android.widget.TextView;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -24,7 +25,7 @@ class FlashCard
 
     private Vector<String> sindarSide;
     private Vector<String> englishSide;
-    private boolean cardFaceUp = true;
+    public boolean cardFaceUp = true;
     private int currentSide;
     private Random r;
     private Typeface sindarTypeface;
@@ -94,6 +95,7 @@ public class PhenomeFlashCardActivity extends Activity implements OnClickListene
         this.findViewById(R.id.column_4).setVisibility(View.GONE);
         this.findViewById(R.id.extra_characters).setVisibility(View.GONE);
         this.findViewById(R.id.tehtar).setVisibility(View.GONE);
+        this.findViewById(R.id.begin_writing_practice).setVisibility(View.GONE);
 
         Resources res = getResources();
         Vector<Vector<String>> cards = this.getCategories(categories, res);

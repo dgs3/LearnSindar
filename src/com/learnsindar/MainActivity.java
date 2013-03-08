@@ -26,7 +26,6 @@ public class MainActivity extends FragmentActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         this.findViewById(R.id.flash).setVisibility(View.GONE);
-        this.findViewById(R.id.next_writing_char).setVisibility(View.GONE);
     }
 
 public void beginWritingPractice(View view){
